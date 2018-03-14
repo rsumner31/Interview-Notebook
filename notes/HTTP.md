@@ -191,7 +191,7 @@ TRACE 一般不会使用，并且它容易受到 XST 攻击（Cross-Site Tracing
 | 首部字段名 | 说明 |
 | -- | -- |
 | Cache-Control | 控制缓存的行为 |
-| Connection | 逐跳首部、 连接的管理 |
+| Connection | 控制不再转发给代理的首部字段；管理持久连接|
 | Date | 创建报文的日期时间 |
 | Pragma | 报文指令 |
 | Trailer | 报文末端的首部一览 |
@@ -245,7 +245,7 @@ TRACE 一般不会使用，并且它容易受到 XST 攻击（Cross-Site Tracing
 | Allow | 资源可支持的 HTTP 方法 |
 | Content-Encoding | 实体主体适用的编码方式 |
 | Content-Language | 实体主体的自然语言 |
-| Content-Length | 实体主体的大小（单位： 字节） |
+| Content-Length | 实体主体的大小（单位：字节） |
 | Content-Location | 替代对应资源的 URI |
 | Content-MD5 | 实体主体的报文摘要 |
 | Content-Range | 实体主体的位置范围 |
